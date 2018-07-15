@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "664015691628",
+    "firebase_url": "https://livenews-27c8b.firebaseio.com",
+    "project_id": "livenews-27c8b",
+    "storage_bucket": "livenews-27c8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664015691628:android:0aa75749712b1795",
+        "android_client_info": {
+          "package_name": "com.example.gamers.tablelay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664015691628-cvso7oj28fd1ad37luv1bi23l1ll6kdt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gamers.tablelay",
+            "certificate_hash": "0b8cf679397001d7c8e21d05291b98fa8d96aa62"
+          }
+        },
+        {
+          "client_id": "664015691628-gcjsc7lmip1evgco1kodfq1gi8et4319.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gamers.tablelay",
+            "certificate_hash": "3a23a06ef5ed319e60043be309d6a5499318f63c"
+          }
+        },
+        {
+          "client_id": "664015691628-tpefjhu602gq2f4tplvv3e0f2l5c4kfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1wodomjVIVACWZcfZWalJLvgDUZ9iDaI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664015691628-tpefjhu602gq2f4tplvv3e0f2l5c4kfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664015691628:android:ed10c03812c15eb7",
+        "android_client_info": {
+          "package_name": "com.example.gamers.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664015691628-30ofnbfnqlq3o8q0rfifj09vrjpeghfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gamers.testapp",
+            "certificate_hash": "0b8cf679397001d7c8e21d05291b98fa8d96aa62"
+          }
+        },
+        {
+          "client_id": "664015691628-tpefjhu602gq2f4tplvv3e0f2l5c4kfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1wodomjVIVACWZcfZWalJLvgDUZ9iDaI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664015691628-tpefjhu602gq2f4tplvv3e0f2l5c4kfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

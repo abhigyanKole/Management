@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/newslistview"
+    android:divider="#FFFFFF"
+    android:background="@color/colorPrimaryDark">
+</ListView>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="30dp"
+        app:backgroundTint="@color/colorAccent"
+        android:src="@drawable/ic_plus"
+        android:id="@+id/addnotification"
+        android:visibility="invisible"
+        app:rippleColor="@color/colorAccent"
+        />
+</android.support.design.widget.CoordinatorLayout>

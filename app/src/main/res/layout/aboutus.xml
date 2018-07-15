@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/mottoview">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-Our Mission-"
+                android:textSize="22sp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="@font/lato_thin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:paddingTop="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimaryDark"
+                android:text="Our mission is to make your life clutter-free so that you make the most of your precious time."
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/lato"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/mottoview">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Who Are We?"
+                android:textSize="22sp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="@font/lato_thin"
+                android:gravity="center"
+                android:paddingStart="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimaryDark"
+                android:text="We are a group of highly motivated Computer Science Students,who understands your problems and are willing to resolve them."
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/lato"
+                />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_above="@+id/developername"
+        android:layout_alignParentEnd="true"
+        android:text="Developed By"
+        android:paddingRight="10dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/lato"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Silver Fang"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/lato"
+        android:id="@+id/developername"
+        />
+</RelativeLayout>

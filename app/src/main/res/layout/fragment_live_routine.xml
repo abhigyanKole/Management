@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:id="@+id/containerrelativelayout"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please choose a routine below"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/lato"
+        android:id="@+id/pleasechoosetext"
+        android:visibility="gone"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        android:id="@+id/groupspinner"
+        android:background="@drawable/buttonbackground"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Routine name"
+        android:id="@+id/routineheadingtext"
+        android:textColor="@color/white"
+        android:fontFamily="@font/lato"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:visibility="invisible"
+        android:id="@+id/upperlineview"/>
+    <GridView
+
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="8"
+        android:horizontalSpacing="1dp"
+        android:verticalSpacing="1dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:visibility="invisible"
+        android:id="@+id/lowerlineview"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="TealTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryTeal</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryTealDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--style name="ViewPagerTabFont" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/lato_thin</item>
+        <item name="app:tabIndicatorColor=">@color/colorAccent"</item>
+        <item name="app:tabSelectedTextColor">"@color/colorAccent"</item>
+        <item name="app:tabTextColor">"@color/white"</item>
+    </style-->
+
+</resources>

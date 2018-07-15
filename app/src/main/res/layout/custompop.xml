@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonbackground"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/editheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pacifico"
+                android:gravity="center"
+                android:text="Edit Routine"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/crossbutton"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="3dp"
+                android:background="@drawable/circlebackground"
+                android:gravity="center"
+                android:text="X"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckedTextView
+                android:id="@+id/classcancelstatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="Mark Cancelled?"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <CheckedTextView
+                android:id="@+id/revokecancelstatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="Revoke cancel status?"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <CheckedTextView
+                android:id="@+id/temporarycheckedstatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="Mark Temporary Class?"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <CheckedTextView
+                android:id="@+id/revoketemporarystatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:text="Revoke temp status?"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="OR"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="New class?"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="13sp" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/white"
+                    android:background="@drawable/buttonbackground"
+                    android:id="@+id/subspinner"
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="Teacher?"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="13sp" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/white"
+                    android:background="@drawable/buttonbackground"
+                    android:id="@+id/sirspinner"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="OR"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dp"
+                    android:text="Class time Changed?"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="13sp" />
+
+                <EditText
+                    android:id="@+id/newtimeentry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter time."
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"
+                    android:textSize="13sp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="OR"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dp"
+                    android:text="Want to change Date?"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="13sp" />
+
+                <EditText
+                    android:id="@+id/newdayentry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Date."
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/postbutton"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonbackground"
+                android:text="Post"
+                android:textColor="@color/colorAccent"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

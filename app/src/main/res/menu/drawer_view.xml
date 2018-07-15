@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <!--item
+            android:id="@+id/assignments"
+            android:title="Assignments"
+            android:icon="@drawable/ic_assignments"
+            android:iconTint="@color/colorAccent"
+            android:iconTintMode="screen"
+            /-->
+        <item
+            android:id="@+id/syllabus"
+            android:title="Syllabus"
+            android:iconTint="@color/colorAccent"
+            android:icon="@drawable/ic_syllabus"/>
+        <item
+            android:id="@+id/papers"
+            android:title="Question Papers"
+            android:icon="@drawable/ic_papers"
+            android:iconTint="@color/colorAccent"/>
+        <item
+            android:id="@+id/routine"
+            android:title="Live Routine"
+            android:icon="@drawable/ic_routine"
+            android:iconTint="@color/colorAccent"/>
+        <item
+            android:id="@+id/notification"
+            android:title="Notifications"
+            android:icon="@drawable/ic_notification"
+            android:iconTint="@color/colorAccent"/>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <!--item
+            android:id="@+id/settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            /-->
+        <item
+            android:id="@+id/Log_Out"
+            android:title="Log Out"
+            android:icon="@drawable/ic_logout"
+            />
+        <item
+            android:icon="@drawable/ic_attendance"
+            android:id="@+id/attendance"
+            android:title="Attendance"/>
+        <item
+            android:id="@+id/about_us"
+            android:title="About Us"
+            android:icon="@drawable/ic_businessman"
+            />
+    </group>
+
+
+</menu>

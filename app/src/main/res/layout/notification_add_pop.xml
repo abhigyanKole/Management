@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="@drawable/buttonbackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/circlebackground"
+            android:gravity="center"
+            android:text="X"
+            android:id="@+id/crossbutton"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/headingtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="Write your Heading"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headingtext"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:hint="Write your Heading Here."
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            android:textColorHint="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/descriptiontext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading"
+            android:layout_centerHorizontal="true"
+            android:text="Write your Description"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptiontext"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:hint="Write your Description Here."
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            android:id="@+id/description"
+            android:textColorHint="@color/colorAccent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click to add attachment."
+            android:layout_above="@+id/postbuttonn"
+            android:padding="15dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"
+            android:id="@+id/addattachment"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/buttonbackground"
+            android:text="POST"
+            android:id="@+id/postbuttonn"
+            android:textColor="@color/colorAccent" />
+    </RelativeLayout>
+</LinearLayout>
